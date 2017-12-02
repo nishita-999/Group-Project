@@ -46,7 +46,7 @@
             }
             echo "Connected successfully";
             
-            $query1 = "SELECT * FROM Kacar.user WHERE email ='" . $_POST['email']."' ";
+            $query1 = "SELECT * FROM kacar.user WHERE email ='" . $_POST['email']."' ";
 		$result = $dbc->query($query1);	
 			if($result->$num_rows > 0)
 			{
